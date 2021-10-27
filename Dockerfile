@@ -4,4 +4,4 @@ WORKDIR /app
 
 RUN npm install @cucumber/cucumber
 
-CMD ["node", "./node_modules/.bin/cucumber-js" ]
+ENTRYPOINT ["node", "./node_modules/.bin/cucumber-js" ]
